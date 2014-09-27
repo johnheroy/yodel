@@ -1,0 +1,24 @@
+{
+  "name": "yodel",
+  "version": "0.1.0",
+  "description": "Yo. API driver for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnheroy/yodel.git"
+  },
+  "keywords": [
+    "yo",
+    "node",
+    "api"
+  ],
+  "author": "John Heroy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnheroy/yodel/issues"
+  },
+  "homepage": "https://github.com/johnheroy/yodel"
+}

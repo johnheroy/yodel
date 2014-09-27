@@ -4,10 +4,11 @@ var Yodel = function(){
 
 Yodel.prototype.newYoReceived = function(req){
   var toUser = req.params.touser;
-  var fromUser = req.params.username;
-
-  console.log(toUser, 'to user');
-  console.log(fromUser, 'from user');
+  var fromUser = req.query.username;
+  console.log('* new Yo received *');
+  console.log('to user', toUser);
+  console.log('from user', fromUser);
+  return {'toUser': toUser, 'fromUser': fromUser};
 };
 
 module.exports = new Yodel();

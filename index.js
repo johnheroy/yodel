@@ -2,7 +2,7 @@ var Yodel = function(){
 
 };
 
-Yodel.prototype.newYoReceived = function(req){
+Yodel.prototype.parseYo = function(req){
   var toUser = req.params.touser;
   var fromUser = req.query.username;
   console.log('* new Yo received *');
